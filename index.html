@@ -105,9 +105,15 @@
     
     header{
     	background: url(img/header-bg.png) repeat;
-    	margin:0 auto; 
+    	margin:0 -570px; 
     	overflow: hidden;
     	padding: 5px;
+     position: fixed;
+     top: 0;
+      left:50%;
+      z-index: 9999;
+      width: 1140px;
+
     }
 
     header a.fb1{
@@ -160,7 +166,9 @@
     .head-a{
     	margin: 10px 15px;
     }
-
+    .container{
+      margin-top: 65px;
+    }
 @media screen and (max-width: 700px) {
 	.container{
 		margin:0;
@@ -169,6 +177,7 @@
 	 header{
 	 	text-align: center;
 	 	overflow: hidden;
+    position: fixed;
 	 }
    header h1{
     	font-size: 24px;
@@ -296,7 +305,7 @@
         <h4 class="modal-title">Modal Header</h4>
       </div>
       <div class="modal-body">
-       <iframe src="https://form.jotform.me/60605408934456" height="450" width="100%"></iframe>
+       <iframe src="https://form.jotform.me/60605408934456 " height="450" width="100%"></iframe>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
